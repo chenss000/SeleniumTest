@@ -102,7 +102,7 @@ public class BaseTest {
     public void generateReport() {
         extent.flush();
         if (new File(reportPath).exists()) {
-//            MailUtil.sendReportMail(reportPath);
+            MailUtil.sendReportMail(reportPath);
         } else {
             LogUtil.error("报告文件未找到，无法发送邮件！");
         }
