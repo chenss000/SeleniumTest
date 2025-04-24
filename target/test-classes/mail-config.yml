@@ -1,0 +1,43 @@
+mail:
+  from: "zhuig124864@163.com"
+  to:
+    - "yt1306395105@gmail.com"
+    - "yt1306395102@163.com"
+  host: "smtp.163.com"
+  user: "zhuig124864@163.com"
+  password: "HLi3R98v7stKFHit"
+  port: 465
+  ssl: true
+  protocols: "TLSv1.2"
+
+
+
+#mail:
+#  from: "1306395107@qq.com"
+#  to: "yt1306395105@gmail.com"
+#  host: "smtp.qq.com"
+#  user: "1306395107@qq.com"
+#  password: "seskbhptfdwhjiec"  # QQ邮箱授权码
+#  port: 465
+#  ssl: true
+#  protocols: "TLSv1.2"
+
+#mail:
+#  host: smtp.gmail.com
+#  port: 465
+#  username: yourname@gmail.com
+#  password: your_app_password # ⚠️ 注意是 Gmail 的“应用专用密码”
+#  ssl: true
+
+#mail:
+#  from: "1306395107@qq.com"
+#  to:
+#    - "yt1306395105@gmail.com"
+#    - "example1@example.com"
+#    - "example2@example.com"
+#  host: "smtp.qq.com"
+#  user: "1306395107@qq.com"
+#  password: "seskbhptfdwhjiec"
+#  port: 465
+#  ssl: true
+#  protocols: "TLSv1.2"
