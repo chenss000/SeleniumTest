@@ -11,6 +11,6 @@ public class DemoTesttwo extends BaseTest {
 
         String buttonText = driver.findElement(By.xpath("//*[@id='su']")).getAttribute("value");
         getTest().info("按钮文本为：" + buttonText);
-        Assert.assertEquals(buttonText, "百度一下ss", "按钮文本不匹配！");
+        Assert.assertEquals(buttonText, "百度一下", "按钮文本不匹配！");
     }
 }
